@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    .headline {
+      color: #e74c3c; /* Red */
+      background-color: #f39c9c; /* Light Pink */
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    .cards-container {
+      display: flex;
+    }
+
+    .card {
+      width: 200px;
+      height: 300px;
+      margin: 20px;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      opacity: 1;
+    }
+
+    .card:not(:hover) {
+      opacity: 0.7;
+    }
+
+    .content {
+      padding: 20px;
+      color: #fff;
+    }
+
+    .card-yellow {
+      background-color: #f1c40f; /* Yellow */
+    }
+
+    .card-light-pink {
+      background-color: #f39c9c; /* Light Pink */
+    }
+
+    .card-red {
+      background-color: #e74c3c; /* Red */
+    }
+
+    .card-green {
+      background-color: #2ecc71; /* Green */
+    }
+  </style>
+</head>
+<body>
+
+<div class="headline">
+  CARDS
+</div>
+
+<div class="cards-container">
+  <div class="card card-yellow">
+    <div class="content">
+    </div>
+  </div>
+
+  <div class="card card-light-pink">
+    <div class="content">
+    </div>
+  </div>
+
+  <div class="card card-red">
+    <div class="content">
+    </div>
+  </div>
+
+  <div class="card card-green">
+    <div class="content">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
